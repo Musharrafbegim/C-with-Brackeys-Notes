@@ -29,8 +29,9 @@ public static void Main (string[] args)
 //Divide Program
 public static void Main (string[] args) 
 {
-  int num01; 
-  int num02;
+  Start:
+    int num01; 
+    int num02;
   
   Console.Write("Type a number to be divided: ");
   num01 = Convert.int32 (console.ReadLine());
