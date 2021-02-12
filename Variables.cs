@@ -37,7 +37,9 @@ public static void Main (string[] args)
   Console.Write("Type your second number: ");
   num02 = Convert.int32 (console.ReadLine());
   Console.Write(num01 + " divided by " + num02 " is " + num01 / num02);
-  console.readKey();
+  Console.readKey();
+  Console.WriteLine();
+  goto.Start;
 }
 
 //int num01; num01 = 20; int - is the data type, float - decimal, double is just like double, bool is a boolean (True, False), string is a text, char is used for a single character.
